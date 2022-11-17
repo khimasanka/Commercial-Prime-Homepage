@@ -1,0 +1,69 @@
+@media all and (min-width: 320px) and (max-width: 425px) {
+
+    body{
+        background-color: #151515;
+    }
+
+    .logo-img{
+        transform: scale(0.75);
+    }
+
+    .greeting-wrap{
+        margin-left: 40px;
+
+    }
+
+    #cardWrapper{
+        margin-bottom: 60px;
+    }
+
+    .btn-active{
+        transform: scale(0.75);
+    }
+
+    .long-btn> h1:nth-child(1){
+        display: none;
+    }
+
+    .long-btn{
+        transform: scale(0.75);
+        margin: 0 15px !important;
+    }
+
+    .long-btn > h1 {
+        transform: scale(1.75);
+        padding-bottom: 3px;
+    }
+
+    .long-wrap{
+      margin: 0 !important;
+    }
+
+    #card1 , #card2{
+        transform: scale(0.75);
+        margin: -20px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 640px) {
+    body{
+        background-color: #151515;
+    }
+
+    .greeting-wrap{
+        margin-left: 30px;
+    }
+
+    .plus-mark{
+        font-size:20px!important;
+    }
+
+    #cardWrapper{
+        margin-bottom: 60px;
+    }
+
+    .long-btn > h1 {
+        transform: scale(1.75);
+        padding-bottom: 3px;
+    }
+}
